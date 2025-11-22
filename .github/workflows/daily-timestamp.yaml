@@ -23,5 +23,4 @@ jobs:
       - name: Run timestamp script
         run: node scripts/daily-timestamp.js
         env:
-          HOOHU_UA: ${{ secrets.HOOHU_UA }}
-          HOOHU_PASSWORD: ${{ secrets.HOOHU_PASSWORD }}
+          BOT_PASSWORD: ${{ secrets.BOT_PASSWORD }}

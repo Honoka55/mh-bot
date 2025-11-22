@@ -1,7 +1,7 @@
 {
-    "name": "hoohu-bot",
+    "name": "mh-bot",
     "type": "module",
-    "description": "Pleasant Goat Wiki bot",
+    "description": "Mh bot",
     "scripts": {
         "cleanup": "node scripts/sandbox-cleanup.js"
     },

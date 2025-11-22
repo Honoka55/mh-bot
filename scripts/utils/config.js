@@ -1,8 +1,8 @@
 export default {
-    api: 'https://xyy.miraheze.org/w/api.php',
-    useragent: `${process.env.HOOHU_UA}`,
+    api: 'https://wixoss.miraheze.org/w/api.php',
+    useragent: 'Wixoss-bot/1.0',
     bot: {
-        name: 'Hoohu-bot',
-        password: process.env.HOOHU_PASSWORD
+        name: 'Wixoss-bot',
+        password: process.env.BOT_PASSWORD
     }
 };

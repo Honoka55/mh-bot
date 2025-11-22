@@ -11,11 +11,10 @@ const api = new MediaWikiApi(config.api, { headers: { 'user-agent': config.usera
         'csrf',
         {
             action: 'edit',
-            title: 'User:Hoohu-bot/timestamp',
+            title: 'User:Wixoss-bot/timestamp',
             text: '~~~~~',
             summary: 'Daily timestamp print.',
             bot: true,
-            tags: 'hoohu-daily',
             watchlist: 'nochange'
         },
         { retry: 10, noCache: true }
